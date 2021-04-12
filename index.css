@@ -1,0 +1,204 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    	box-sizing: border-box;
+    	max-width: 100%;
+	background-repeat: no-repeat;
+	}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(109, 14, 109, 0.5);
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Italianno', cursive;
+}
+
+p, a {
+    font-family: 'Italiana', serif;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 15rem;
+    padding: 1rem 3rem;
+    line-height: 1;
+    color: white;
+    letter-spacing: 1rem;
+}
+
+nav {
+    display: flex;
+    padding-left: 12rem;
+}
+
+nav a {
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border: .2rem solid black;
+    background-color: rgb(7, 185, 185);
+    margin-bottom: 2rem;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+}
+
+#description {
+    width: 100%;
+    display: flex;
+}
+
+#mainimg {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#detail {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+#tundra {
+    padding: 3rem 2rem;
+}
+
+h2 {
+    letter-spacing: 1rem;
+    font-size: 10rem;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+#detail a {
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border: .2rem solid black;
+    background-color: ivory;
+    margin-bottom: 1rem;
+}
+
+#detail p {
+    text-indent: 2rem;
+}
+
+#gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#gallery div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem
+}
+
+#gallery div h3 {
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(109, 14, 109, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border: .2rem solid black;
+    background-color: rgb(7, 185, 185);
+    margin-bottom: 4rem;
+}
+
+footer p{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2rem 0rem;
+}
+
+@media (max-width:800px) {
+
+    #description {
+        flex-direction: column;
+    }
+
+    #mainimg {
+        width: 100%;
+    }
+
+    #detail {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        padding-left: 1.2rem;
+        justify-content: center;
+    }
+
+    h1 {
+        padding: 1rem 1rem;
+    }
+
+    #gallery div {
+        text-align: center;
+        width: 45%;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+}
+
+@media (max-width:500px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        width: 50%;
+        text-align: center;
+    }
+}
