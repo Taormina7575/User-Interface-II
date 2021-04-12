@@ -157,3 +157,48 @@ footer p{
     margin: 2rem 0rem;
 }
 
+@media (max-width:800px) {
+
+    #description {
+        flex-direction: column;
+    }
+
+    #mainimg {
+        width: 100%;
+    }
+
+    #detail {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        padding-left: 1.2rem;
+        justify-content: center;
+    }
+
+    h1 {
+        padding: 1rem 1rem;
+    }
+
+    #gallery div {
+        text-align: center;
+        width: 45%;
+    }
+
+    nav a {
+        padding: 1rem;
+    }
+}
+
+@media (max-width:500px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        width: 50%;
+        text-align: center;
+    }
+}
